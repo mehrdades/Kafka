@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CdSuua/pV8dzi4uu7LdWWIPAgKLLVmdAkLW4Uuei7T7vCFRvbARsGjlOBAExRkFHy+9JeexCvhrMZrgL8k9wg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\P1293EA\\OneDrive - Ceridian HCM Inc\\Desktop\\InfoServise\\KafkaMessage\\KafkaProducer\\KafkaProducer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\P1293EA\\.nuget\\packages\\confluent.kafka\\2.0.2\\confluent.kafka.2.0.2.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\librdkafka.redist\\2.0.2\\librdkafka.redist.2.0.2.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

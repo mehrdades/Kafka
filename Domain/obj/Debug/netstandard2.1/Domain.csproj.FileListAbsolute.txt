@@ -1,0 +1,10 @@
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.csproj.AssemblyReference.cache
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\Users\P1293EA\OneDrive - Ceridian HCM Inc\Desktop\InfoServise\KafkaMessage\Domain\obj\Debug\netstandard2.1\Domain.pdb
