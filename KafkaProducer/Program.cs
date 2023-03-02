@@ -14,11 +14,15 @@ var producer = new ProducerBuilder<Null, string>(config).Build();
 
 try
 {
-    while (Console.ReadLine() != null)
+    var message = Console.ReadLine();
+    var i = 0;  
+    do
     {
-        var response = await producer.ProduceAsync("test-topic", new Message<Null, string> { Value = JsonConvert.SerializeObject(new SomeEntity(1, Console.ReadLine())) });
+        i++;
+        var response = await producer.ProduceAsync("test-topic", new Message<Null, string> { Value = JsonConvert.SerializeObject(new SomeEntity(i, message)) });
         Console.WriteLine($"Partion: {response.Partition} - Message: {response.Message}");
-    }
+        message = Console.ReadLine();
+    } while (message is not null);
 }
 catch (ProduceException<Null, string> ex)
 {
