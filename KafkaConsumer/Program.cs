@@ -12,11 +12,15 @@ var config = new ConsumerConfig
 
 CancellationTokenSource token = new();
 
-Console.ReadLine();
 var consumer = new ConsumerBuilder<Null, string>(config).Build();
 
 consumer.Subscribe("test-topic");
 
+Console.WriteLine("Enter the Partition Id: ");
+var topicPartiotion = new TopicPartition("test-topic", new Confluent.Kafka.Partition(Convert.ToInt32(Console.ReadLine())));
+consumer.Assign(topicPartiotion);
+
+Console.WriteLine($"{Environment.NewLine}Listening...");
 
 try
 {
