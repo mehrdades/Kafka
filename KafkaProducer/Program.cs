@@ -10,7 +10,7 @@ var config = new ProducerConfig
 
 CancellationTokenSource token = new();
 
-var producer = new ProducerBuilder<Null, string>(config).Build();
+var producer = new ProducerBuilder<string, string>(config).Build();
 
 try
 {
@@ -19,8 +19,8 @@ try
     do
     {
         i++;
-        var response = await producer.ProduceAsync("test-topic", new Message<Null, string> { Value = JsonConvert.SerializeObject(new SomeEntity(i, message)) });
-        Console.WriteLine($"Partion: {response.Partition} - Message: {response.Message}");
+        var response = await producer.ProduceAsync("test-topic", new Message<string, string> { Key = i.ToString(), Value = JsonConvert.SerializeObject(new SomeEntity(i, message)) });
+        Console.WriteLine($"Partion: {response.Partition} - Message: {response.Message} - Status: {response.Status}");
         message = Console.ReadLine();
     } while (message is not null);
 }
